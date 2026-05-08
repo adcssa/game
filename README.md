@@ -23,3 +23,34 @@
 - 是否改造晨星引擎，让记忆归还众人
 - 是否彻底毁掉它，阻止继续被利用
 - 是否先公开真相，让城市自己面对后果
+
+## 安装与运行
+
+### 方式一：直接运行可执行文件
+
+如果已经拿到打包好的 `FogHarborEcho.exe`，双击即可运行，无需额外安装 Python 环境。
+
+### 方式二：从源码运行
+
+1. 安装 `Python 3.10+`
+2. 下载或克隆本仓库
+3. 在项目目录下执行：
+
+```powershell
+python .\generate_bgm.py
+python .\main.py
+```
+
+### 打包为 exe
+
+如果需要自行打包 Windows 可执行文件，可在项目目录下执行：
+
+```powershell
+.\build.ps1
+```
+
+打包完成后，生成文件位于：
+
+```text
+.\dist\FogHarborEcho.exe
+```
