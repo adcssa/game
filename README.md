@@ -12,6 +12,10 @@
 - 支持背景音乐播放与 Windows `exe` 打包
 - 附带完整剧情梳理文档与 Mermaid 流程图
 
+## 游戏下载
+
+- Windows 可执行文件：[FogHarborEcho.exe](./dist/FogHarborEcho.exe)
+
 ## 世界观概述
 
 七年前，雾港钟塔发生爆炸，主角林澈的父亲林岐舟死于其中，官方说法是锅炉事故。
